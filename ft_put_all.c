@@ -6,7 +6,7 @@
 /*   By: alvalope <alvalope@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/29 18:03:57 by alvalope          #+#    #+#             */
-/*   Updated: 2023/05/08 16:52:21 by alvalope         ###   ########.fr       */
+/*   Updated: 2023/05/08 18:34:04 by alvalope         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,12 @@ void	ft_put_va_nbr(int nbr, size_t *total)
 	else if (nbr < 0)
 	{
 		i = 2;
-		digits = ft_count_digits2(-nbr);
+		digits = ft_count_digits(-nbr);
 	}
 	else
 	{
 		i = 1;
-		digits = ft_count_digits2(nbr);
+		digits = ft_count_digits(nbr);
 	}
 	ft_putnbr_fd(nbr, 1);
 	*total += (digits + i - 1);

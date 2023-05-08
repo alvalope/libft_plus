@@ -6,7 +6,7 @@
 /*   By: alvalope <alvalope@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 09:52:39 by alvalope          #+#    #+#             */
-/*   Updated: 2023/05/08 16:50:06 by alvalope         ###   ########.fr       */
+/*   Updated: 2023/05/08 18:36:16 by alvalope         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
+int		ft_count_digits(int n);
 void	ft_put_va_nbr(int nbr, size_t *total);
 void	ft_put_va_str(const char *arg, size_t *total);
 void	ft_put_hexa(unsigned long long arg, size_t *total);
@@ -77,7 +78,6 @@ void	ft_put_va_ptr(unsigned long long arg, size_t *total);
 int		ft_putuchar_fd(unsigned int c, int fd);
 int		ft_putunbr_fd(unsigned int n, int fd);
 int		ft_put_va_unbr(unsigned int nbr, size_t *total);
-int		ft_count_digits2(int n);
 void	ft_printf4(const char *str, int *i, va_list *arg_l, size_t *total);
 void	ft_printf3(const char *str, int *i, va_list *arg_l, size_t *total);
 void	ft_printf2(const char *str, int *i, va_list *arg_l, size_t *total);
