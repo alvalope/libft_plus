@@ -40,13 +40,13 @@ all: $(NAME)
 
 $(NAME): $(OBJS) $(HEADER)
 	$(LIB) $(NAME) $(OBJS)
-	
+
 clean:
-	$(RM) $(OBJS) $(BONUS_OBJS)
+	$(RM) $(OBJS)
 
 fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
 
-.PHONY : clean fclean
+.PHONY : all clean fclean re
