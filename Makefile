@@ -6,7 +6,7 @@
 #    By: alvalope <alvalope@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/28 19:33:07 by alvalope          #+#    #+#              #
-#    Updated: 2023/05/08 16:51:10 by alvalope         ###   ########.fr        #
+#    Updated: 2023/05/09 18:11:00 by alvalope         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,9 @@ SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 	ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 	ft_putnbr_fd.c ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 	ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c \
-	ft_printf.c ft_put_all.c ft_put_unsigned.c
+	ft_printf.c ft_put_all.c ft_put_unsigned.c ft_get_next_line.c \
+	ft_get_next_line_utils.c ft_get_next_line_multi.c \
+	ft_get_next_line_utils_multi.c
 	
 OBJS = $(SRCS:.c=.o)
 

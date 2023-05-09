@@ -6,7 +6,7 @@
 /*   By: alvalope <alvalope@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 09:52:39 by alvalope          #+#    #+#             */
-/*   Updated: 2023/05/09 18:07:23 by alvalope         ###   ########.fr       */
+/*   Updated: 2023/05/09 18:12:54 by alvalope         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,5 +86,6 @@ int		ft_printf(const char *str, ...);
 int		ft_search_newline(char *s);
 char	*ft_free_strjoin(char *s1, char *s2);
 char	*ft_get_next_line(int fd);
+char	*ft_get_next_line_multi(int fd);
 
 #endif
